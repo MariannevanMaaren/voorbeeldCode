@@ -2,7 +2,27 @@ package animal;
 
 public class Dog extends Mammal {
 	public String breathe() {
-		System.out.println("Dog is breathing");
+		System.out.println("The dog is breathing");
+		return "";
+	}
+	
+	public String name() {
+		System.out.println("No parameters");
+		return "";
+	}
+	
+	public boolean bark() {
+		System.out.println("Dog is barking");
+		return true;
+	}
+	
+	public int age(int ageIn) {
+		System.out.println("My age is" + ageIn);
+		return ageIn;
+	}
+	
+	public String colour() {
+		System.out.println("Colour of dog");
 		return "";
 	}
 	
